@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Game2CSS.css">
+  <script src="Game2script.js" defer></script>
+  <title>Roll</title>
+</head>
+
+<body>
+  <div class="body-container">
+    <div class="back--button">
+      <a href="index.html" alt="back-button">Back</a>
+    </div>
+    <div class="container">
+      <div class="left-side">
+        <span class="player-1">
+          Player 1
+          <p class="score-player-1">0</p>
+        </span>
+        <div class="current-player-1">
+          Current
+          <span class="score-current-1">0</span>
+        </div>
+      </div>
+      <div class="right-side">
+        <span class="player-2">
+          Player 2
+          <p class="score-player-2">0</p>
+        </span>
+        <div class="current-player-2">
+          Current
+          <span class="score-current-2">0</span>
+        </div>
+      </div>
+      <img src="dice-5.png" alt="Playing dice" class="dice" />
+      <div class="new-game">
+        <button class="new-game-button">NEW GAME</button>
+      </div>
+      <div class="two-buttons">
+        <div class="roll-dice">
+          <button class="roll-dice-button">ROLL DICE</button>
+        </div>
+        <div class="hold">
+          <button class="hold-button">HOLD</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="question-screen">
+    <h1 class="question"></h1>
+    <div class="question-numbers">
+      <p class="Var-1"></p>
+      <p class="Var-2"></p>
+      <p class="Var-3"></p>
+      <p class="Var-4"></p>
+    </div>
+    <div class="button">
+      <button id="backButton">Back</button>
+    </div>
+    <h2 class="winner-msg"></h2>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
